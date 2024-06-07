@@ -11,5 +11,8 @@ spec:
   type: other
   lifecycle: production
   owner: usefedora/engineers
+  system: fedora
   dependsOn:
     - component:usefedora/fedora
+    - component:usefedora/fedora-redis
+    - component:usefedora/fedora-postgres
