@@ -1,0 +1,15 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: mono-frontend
+  namespace: usefedora
+  description: The frontend for the Fedora Repository
+  annotations:
+    github.com/project-slug: UseFedora/mono-frontend
+    backstage.io/techdocs-ref: dir:.
+spec:
+  type: other
+  lifecycle: production
+  owner: usefedora/engineers
+  dependsOn:
+    - component:usefedora/mono-frontend
