@@ -1,13 +1,14 @@
 apiVersion: backstage.io/v1alpha1
-kind: Component
+kind: Resource
 metadata:
-  name: fedora
+  name: fedora-db
   namespace: usefedora
-  description: The main Rails application for Teachable
+  description: The main database for Fedora
   annotations:
     github.com/project-slug: UseFedora/fedora
     backstage.io/techdocs-ref: dir:.
 spec:
-  type: service
+  type: database
   lifecycle: production
+  system: fedora
   owner: group:usefedora/everyone

@@ -10,6 +10,7 @@ metadata:
 spec:
   type: service
   lifecycle: production
+  system: fedora
   owner: group:usefedora/everyone
   dependsOn:
-    - component:default/mono-frontend
+    - resource:default/fedora-db
