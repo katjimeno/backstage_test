@@ -12,3 +12,5 @@ spec:
   lifecycle: production
   system: fedora
   owner: group:usefedora/everyone
+  dependencyOf:
+    - resource:usefedora/fedora
