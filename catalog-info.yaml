@@ -13,4 +13,4 @@ spec:
   system: fedora
   owner: group:usefedora/everyone
   dependsOn:
-    - resource:default/fedora-db
+    - resource:usefedora/fedora-db

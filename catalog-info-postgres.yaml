@@ -13,4 +13,4 @@ spec:
   system: fedora
   owner: group:usefedora/everyone
   dependencyOf:
-    - resource:default/fedora
+    - component:usefedora/fedora
