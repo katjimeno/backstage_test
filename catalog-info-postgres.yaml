@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
   name: fedora-db
-  namespace: usefedoraz
+  namespace: usefedora
   description: The main database for Fedora
   annotations:
     github.com/project-slug: UseFedora/fedora
@@ -10,7 +10,7 @@ metadata:
 spec:
   type: database
   lifecycle: production
-  system: fedoraz
+  system: fedora
   owner: group:usefedora/everyone
   dependencyOf:
-    - resource:usefedora/fedora
+    - resource:default/fedora
