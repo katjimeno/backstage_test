@@ -2,11 +2,12 @@ apiVersion: backstage.io/v1alpha1
 kind: Resource
 metadata:
   name: fedora-redis
+  namespace: usefedora
   description: Stores cached data for the Fedora App
 spec:
   type: database
   owner: usefedora/engineers
-  system: fedora
+  system: system:usefedora/fedora
   dependencyOf:
     - component:usefedora/fedora
     - component:usefedora/mono-frontend

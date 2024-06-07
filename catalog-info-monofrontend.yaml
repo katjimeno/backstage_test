@@ -11,7 +11,7 @@ spec:
   type: other
   lifecycle: production
   owner: usefedora/engineers
-  system: fedora
+  system: system:usefedora/fedora
   dependsOn:
     - component:usefedora/fedora
     - component:usefedora/fedora-redis

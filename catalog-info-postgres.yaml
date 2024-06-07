@@ -10,7 +10,7 @@ metadata:
 spec:
   type: database
   lifecycle: production
-  system: fedora
+  system: system:usefedora/fedora
   owner: group:usefedora/everyone
   dependencyOf:
     - component:usefedora/fedora
