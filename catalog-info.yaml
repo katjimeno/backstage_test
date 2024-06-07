@@ -13,4 +13,4 @@ spec:
   system: fedora
   owner: group:usefedora/everyone
   dependsOn:
-    - component:usefedora/fedora
+    - component:usefedora/mono-frontend
